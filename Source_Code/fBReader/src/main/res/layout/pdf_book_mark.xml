@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.artifex.mupdfdemo.bookmark.widget.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:pstsShouldExpand="true"
+        app:pstsUnderlineHeight="2dp"
+        app:pstsIndicatorHeight="2dp"
+        app:pstsIndicatorColor="@android:color/holo_blue_light"
+       	app:selectedTabTextColor="@android:color/holo_blue_light"
+        app:pstsDividerColor="@android:color/transparent"
+	    app:pstsTabBackground="@drawable/background_tab"
+	   	android:background="@android:color/white"
+         />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs" />
+
+</RelativeLayout>

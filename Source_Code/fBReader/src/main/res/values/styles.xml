@@ -1,0 +1,154 @@
+<resources>
+
+    <style name="FBReader.Activity" parent="android:Theme"></style>
+
+    <style name="FBReader.Activity.NoActionBar" parent="android:Theme"></style>
+
+    <style name="FBReader.Dialog" parent="android:Theme.Dialog"></style>
+
+    <color name="transparent">#00000000</color>
+
+    <style name="FBReader.Transparent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="QuickOpen">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+    <style name="TopSelectAnimationShow">
+        <item name="android:windowEnterAnimation">@anim/top_enter</item>
+        <item name="android:windowExitAnimation">@anim/top_exit</item>
+    </style>
+
+    <style name="BottompSelectAnimationShow">
+        <item name="android:windowEnterAnimation">@anim/bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/bottom_exit</item>
+    </style>
+	
+	
+    <style name="afc_button_location" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/afc_selector_button_location_dark</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxWidth">@dimen/afc_button_location_max_width</item>
+        <item name="android:minWidth">@dimen/afc_button_location_min_width</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="afc_button_navi_left">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/afc_selector_button_navi_left</item>
+        <item name="android:layout_marginTop">@dimen/afc_5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:minHeight">@dimen/afc_button_navigators_min_height</item>
+    </style>
+
+    <style name="afc_button_navi_right" parent="afc_button_navi_left">
+        <item name="android:src">@drawable/afc_selector_button_navi_right</item>
+    </style>
+
+    <style name="afc_button_create_folder" parent="afc_button_navi_left">
+        <item name="android:src">@drawable/afc_selector_button_create_folder</item>
+        <item name="android:layout_marginRight">@dimen/afc_5dp</item>
+        <item name="android:layout_marginLeft">@dimen/afc_5dp</item>
+    </style>
+
+    <style name="afc_button_sort" parent="afc_button_create_folder">
+        <item name="android:src">@drawable/afc_selector_button_sort_as</item>
+    </style>
+
+    <style name="afc_button_folders_view" parent="afc_button_create_folder">
+        <item name="android:src">@drawable/afc_selector_button_folders_view_list</item>
+    </style>
+
+	
+	 <style name="DefaultText">
+        <item name="android:text">Default</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="DefaultRootLayout">
+        <item name="android:background">@drawable/background_standard_gray</item>
+    </style>
+
+    <!-- Styles for BUTTON type SuperActivityToasts -->
+
+    <style name="SuperActivityToast_Button_RootLayout" parent="DefaultRootLayout">
+        <item name="android:layout_marginBottom">@dimen/buttontoast_hover</item>
+        <item name="android:layout_marginLeft">@dimen/buttontoast_x_padding</item>
+        <item name="android:layout_marginRight">@dimen/buttontoast_x_padding</item>
+    </style>
+
+    <style name="SuperActivityToast_Button_TextView" parent="DefaultText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+
+    <style name="SuperActivityToast_Button_Divider">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="SuperActivityToast_Button_Button">
+        <item name="android:background">@drawable/selector_undobutton</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <!-- Styles for PROGRESS type SuperActivityToasts -->
+
+    <style name="SuperActivityToast_Progress_ProgressBar" parent="android:Widget.Holo.ProgressBar">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <style name="SuperActivityToast_Progress_TextView" parent="DefaultText">
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Styles for PROGRESS_HORIZONTAL type SuperActivityToasts -->
+
+    <style name="SuperActivityToast_ProgressHorizontal_RootLayout" parent="DefaultRootLayout">
+        <item name="android:minWidth">128dp</item>
+    </style>
+
+    <style name="SuperActivityToast_ProgressHorizontal_TextView" parent="DefaultText">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="SuperActivityToast_ProgressHorizontal_ProgressBar" parent="android:Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <!-- Styles for BUTTON type SuperCardToasts -->
+
+    <style name="SuperCardToast_Button_RootLayout" parent="DefaultRootLayout">
+        <item name="android:background">@drawable/selector_undobutton</item>
+    </style>
+
+</resources>

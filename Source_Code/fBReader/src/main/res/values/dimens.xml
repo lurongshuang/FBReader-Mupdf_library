@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="ambilwarna_hsvHeight">240dp</dimen>
+	<dimen name="ambilwarna_hsvWidth">240dp</dimen>
+	<dimen name="ambilwarna_hueWidth">30dp</dimen>
+	<dimen name="ambilwarna_spacer">8dp</dimen>
+	
+	
+    <dimen name="afc_30dp">30dp</dimen>
+    <dimen name="afc_15dp">15dp</dimen>
+    <dimen name="afc_10dp">10dp</dimen>
+    <dimen name="afc_5dp">5dp</dimen>
+    <dimen name="afc_button_location_max_width">256sp</dimen>
+    <dimen name="afc_button_location_min_width">15sp</dimen>
+    <dimen name="afc_context_menu_item_padding_left">18sp</dimen>
+    <dimen name="afc_single_button_min_width">192sp</dimen>
+    <dimen name="afc_viewgroup_button_locations_bottom_divider_height">1dp</dimen>
+</resources>

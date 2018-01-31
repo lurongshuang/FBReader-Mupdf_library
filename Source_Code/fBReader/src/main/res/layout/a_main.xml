@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+      >
+
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试pdf"
+        android:id="@+id/btpdf"
+        />
+    
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试eup"
+        android:id="@+id/bteup"
+        />
+    
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试txt"
+        android:id="@+id/bttxt"
+        />
+   
+    
+</LinearLayout>
