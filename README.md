@@ -5,3 +5,44 @@
 2.引用更加方便 
       实现0代码加入
 ！！！！！！！！！！！！！！！！
+
+
+添加步骤
+
+1.将 library下aar  放到项目libs下
+
+2. compile(name: 'fBReader-release', ext: 'aar')
+
+3.应用 AppApplication中 
+  //初始化阅读器组件
+        ZLAndroidApplication.init(this);
+4.提供便捷方法
+    public static void bookInit(Context context) {
+        if (bs == null) {
+            bs = new BookCollectionShadow();
+            bs.bindToService(context, null);
+        }
+    }
+
+    public void initBook(Context context, String filePath, String type) {
+        if (bs == null) {
+            bs = new BookCollectionShadow();
+            bs.bindToService(context, null);
+        }
+        File file = new File(filePath);
+        if (file.exists()) {
+            Book book = bs.getBookByFile(filePath);
+            if (type.equalsIgnoreCase("TXT") || type.equalsIgnoreCase("EPUB")) {
+                //跳转阅读器
+                FBReader.openBookActivity(context, book, null);
+            } else if (type.equalsIgnoreCase("PDF")) {
+                //跳转PDF阅读器
+                Uri uri = Uri.parse(filePath);
+                Intent intent = new Intent(context, MuPDFActivity.class);
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.setData(uri);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
+            }
+        }
+    }
