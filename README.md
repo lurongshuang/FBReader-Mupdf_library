@@ -20,6 +20,7 @@ class类为：FBReaderIntents
 
 修改类下变量  DEFAULT_PACKAGE 的值 改为主程序的包名
 
+进行重新编译  gradle  markeJar
 
 添加步骤
 
