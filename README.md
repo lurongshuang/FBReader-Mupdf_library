@@ -13,6 +13,8 @@ FBReader全世界最大最好的交流群  321171877 （QQ->"FBReader"）
 ！！！！！！！！！！！！！！！！！！！！！
 
 ******             先将项目引入修改包名*** ******************后在按照下方步骤
+修改包名：package org.geometerplus.android.fbreader.api; FBReaderIntents
+下的 DEFAULT_PACKAGE 值
 
 
 添加步骤
