@@ -1,7 +1,6 @@
 # RBReader-Mupdf_library
 先上图-----------------------------------------------------------------
-
-
+<div>
 <img src="https://github.com/lurongshuang/FBReader-Mupdf_library/blob/master/image/1.png" width="175" alt="PDF阅读" />
 <img src="https://github.com/lurongshuang/FBReader-Mupdf_library/blob/master/image/2.png" width="175" alt="功能界面1" />
 <img src="https://github.com/lurongshuang/FBReader-Mupdf_library/blob/master/image/3.png" width="175" alt="功能界面2" />
@@ -12,7 +11,7 @@
 <img src="https://github.com/lurongshuang/FBReader-Mupdf_library/blob/master/image/8.png" width="175" alt="目录" />
 <img src="https://github.com/lurongshuang/FBReader-Mupdf_library/blob/master/image/9.png" width="175" alt="书签" />
 <img src="https://github.com/lurongshuang/FBReader-Mupdf_library/blob/master/image/10.png" width="175" alt="添加书签" />
-
+</div>
 将 RBReader 与Mupdf代码进行整合
 1.界面更加美观 
       类似主流阅读器界面风格
