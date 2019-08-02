@@ -1,4 +1,18 @@
 # RBReader-Mupdf_library
+先上图-----------------------------------------------------------------
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/1.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/2.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/3.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/4.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/5.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/6.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/7.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/8.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/9.png)
+![image](https://github.com/lurongshuang/FBReader-Mupdf_library/tree/master/image/10.png)
+
+
+
 将 RBReader 与Mupdf代码进行整合
 1.界面更加美观 
       类似主流阅读器界面风格
