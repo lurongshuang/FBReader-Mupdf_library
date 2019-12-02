@@ -44,6 +44,9 @@ class类为：FBReaderIntents
 3.应用 AppApplication中 
   //初始化阅读器组件
         ZLAndroidApplication.init(this);
+        
+        
+        
 4.提供便捷方法
     public static void bookInit(Context context) {
         if (bs == null) {
