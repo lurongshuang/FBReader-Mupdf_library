@@ -49,14 +49,15 @@ class类为：FBReaderIntents
         
 4.提供便捷方法
 
-
+     //判断 服务是否可以使用了
     public static void bookInit(Context context) {
         if (bs == null) {
             bs = new BookCollectionShadow();
             bs.bindToService(context, null);
         }
     }
-
+     
+     //跳转到 阅读界面
     public void initBook(Context context, String filePath, String type) {
         if (bs == null) {
             bs = new BookCollectionShadow();
