@@ -48,6 +48,8 @@ class类为：FBReaderIntents
         
         
 4.提供便捷方法
+
+
     public static void bookInit(Context context) {
         if (bs == null) {
             bs = new BookCollectionShadow();
